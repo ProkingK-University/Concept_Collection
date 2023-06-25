@@ -1,0 +1,46 @@
+/* SET UP CODE */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background-image: url(../img/Mercedes-Benz_Vision_Avtr_1.jpg);
+}
+
+.container {
+    padding: 2rem;
+    color: white;
+    margin-top: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #0f194e;
+    border: 5px solid #47B5FF;
+    box-shadow: 0 0 15px #47B5FF;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 5rem;
+}
+
+h1 {
+    margin-bottom: 10rem;
+}
+
+a {
+    color: #47B5FF;
+    text-decoration: underline;
+}

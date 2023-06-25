@@ -1,0 +1,201 @@
+/* SET UP CODE */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #0f194e;
+}
+
+#loading
+{
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;
+}
+
+/* HEADER */
+
+header {
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    background: url("../img/Mercedes-Benz_Vision_Avtr_1.jpg") no-repeat center / cover;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+/* NAV-BAR */
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5rem;
+}
+
+.nav-bar {
+    height: 70px;
+    padding: 0;
+    border-radius: 15px;
+    list-style: none;
+    background-color: #0f194e;
+}
+
+.nav-item {
+    margin: 1rem;
+    padding: 0.5rem;
+    transition: 0.5s;
+    border-radius: 20px;
+    display: inline-block;
+    background-color: #47B5FF;
+}
+
+.nav-item-content {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    transform: scale(1.05);
+}
+
+.nav-item-content:hover {
+    color: #0f194e;
+}
+
+.nav-brand {
+    color: #0f194e;
+}
+
+.login
+{
+  height: 70px;
+  display: flex;
+  margin: 1.5rem;
+  color: white;
+  font-size: 1rem;
+  transition: 0.5s;
+  padding: 0rem 1rem;
+  text-align: center;
+  font-weight: bolder;
+  align-items: center;
+  border-radius: 15px;
+  justify-content: center;
+  background-color: #0f194e;
+}
+
+.login:hover
+{
+  cursor: pointer;
+  transform: scale(1.2);
+  box-shadow: 0 0 15px #47B5FF;
+}
+
+/* MAIN SECTION */
+
+.main-section {
+    padding: 1rem;
+}
+
+/* BRANDS */
+
+.brands {
+    padding: 1rem;
+    display: grid;
+    color: white;
+    grid-gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.brands-card {
+    width: 450px;
+    margin: 20px;
+    height: 400px;
+    display: flex;
+    padding: 1rem;
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid #47B5FF;
+}
+
+.brands-card:hover {
+    box-shadow: 0 0 15px #47B5FF;
+}
+
+.brands-card img {
+    width: 400px;
+    height: 300px;
+    border-radius: 10%;
+    border: 3px solid white;
+}
+
+.brands h2 {
+    margin: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Tilt Warp', cursive;
+}
+
+.learn {
+    border: none;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 4px;
+    background-color: #47B5FF;
+}
+
+footer
+{
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  background-color: #47B5FF;
+}
+
+.theme
+{
+  border: none;
+  color: white;
+  transition: 0.5s;
+  padding: 0.5rem;
+  border-radius: 4px;
+  background-color: #0f194e;
+}
+
+.theme:hover
+{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.preferences
+{
+  border: none;
+  color: white;
+  transition: 0.5s;
+  padding: 0.5rem;
+  border-radius: 4px;
+  background-color: #0f194e;
+}
+
+.preferences:hover
+{
+  cursor: pointer;
+  transform: scale(1.1);
+}
